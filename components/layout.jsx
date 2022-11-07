@@ -4,9 +4,9 @@ import Image from 'next/image'
 
 const NavLink = ({ src, name }) => {
   return (
-    <li className="flex items-center gap-x-3">
+    <li className="py-2 flex items-center gap-x-3 hover:bg-white hover:text-rd-blue">
       <Image
-        className="inline"
+        className="inline "
         src={`/images/icon-${src}.svg`}
         width={16}
         height={16}
@@ -23,7 +23,7 @@ const Layout = ({ children }) => {
       <TopNavbar />
       <div className="grid grid-cols-12">
         <div className="col-span-2  w-full bg-rd-blue rounded-tr-[2.5rem]">
-          <div className="my-8 text-white pl-12">
+          <div className="mt-14 text-white pl-12">
             <ul className="grid gap-y-4">
               <NavLink src="home" name="Главная" />
               <NavLink src="order" name="Заказы" />

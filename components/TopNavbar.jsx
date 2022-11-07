@@ -4,7 +4,7 @@ import Image from 'next/image'
 const TopNavbar = () => {
   return (
     <div className="w-full bg-white">
-      <div className="flex justify-between mx-12 my-6">
+      <div className="flex justify-between mx-12 my-4">
         <div className="">
           <h1 className="text-xl uppercase">Logo</h1>
         </div>
@@ -19,7 +19,7 @@ const TopNavbar = () => {
               alt=""
             ></Image>
           </div>
-          <div className="bg-rd-blue -my-6 py-6 -mr-12 pr-12 pl-12 rounded-bl-[2.5rem]">
+          <div className="bg-rd-blue -my-4 py-3 -mr-12 px-8 rounded-bl-[2.5rem]">
             <h2 className="text-lg text-white">
               Личный кабинет
               <Image
