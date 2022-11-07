@@ -1,7 +1,9 @@
+import Layout from "../components/layout";
+
 export default function Home() {
   return (
     <>
-      <h1 className='text-center text-5xl'>Hi world</h1>
+      <Layout></Layout>
     </>
-  )
+  );
 }
