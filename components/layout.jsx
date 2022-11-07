@@ -1,17 +1,20 @@
 import React from 'react'
-import TopNavbar from './TopNavbar'
+import TopNavbar from './topNavbar'
 import Image from 'next/image'
 
-const NavLink = ({src, name}) => {
-    return (
-        <li className='flex items-center gap-x-3'>
-                <Image className='inline'
-                    src={`/images/icon-${src}.svg`}
-                    width={16}
-                    height={16}
-                    alt="icon"/> {name}
-              </li>
-    )
+const NavLink = ({ src, name }) => {
+  return (
+    <li className="flex items-center gap-x-3">
+      <Image
+        className="inline"
+        src={`/images/icon-${src}.svg`}
+        width={16}
+        height={16}
+        alt="icon"
+      />{' '}
+      {name}
+    </li>
+  )
 }
 
 const Layout = ({ children }) => {
@@ -27,11 +30,10 @@ const Layout = ({ children }) => {
               <NavLink src="products" name="Товары" />
               <NavLink src="rating" name="Отзывы" />
               <NavLink src="basket" name="Оформить заказ" />
-
             </ul>
           </div>
         </div>
-        <div>
+        <div className='col-span-10'>
           <main>{children}</main>
         </div>
       </div>

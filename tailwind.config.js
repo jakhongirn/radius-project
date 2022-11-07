@@ -17,6 +17,9 @@ module.exports = {
         'rd-secondary': {
           DEFAULT: '#FF647C'
         },
+        'rd-bg': {
+          DEFAULT: '#F3F5F8'
+        },
       }
     },
   },
