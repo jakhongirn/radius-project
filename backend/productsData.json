@@ -3,6 +3,7 @@
         {
             "id": "1",
             "name": "Смартфон Samsung G...",
+            "fullName": "Смартфон Apple iPhone 11 128 Gb Slim Box черный",
             "image": "Samsung-A21",
             "price": "7 300 000",
             "installment": "2 345 000",
@@ -11,6 +12,7 @@
         {
             "id": "2",
             "name": "Смартфон Apple iphon...",
+            "fullName": "Смартфон Apple iPhone 11 128 Gb Slim Box черный",
             "image": "Iphone_12",
             "price": "7 300 000",
             "installment": "2 345 000",
@@ -19,6 +21,7 @@
         {
             "id": "3",
             "name": "Наушники Apple Airpo...",
+            "fullName": "Смартфон Apple iPhone 11 128 Gb Slim Box черный",
             "image": "airpods",
             "price": "7 300 000",
             "installment": "2 345 000",
@@ -27,6 +30,7 @@
         {
             "id": "4",
             "name": "Samsung Galaxy Z Fold...",
+            "fullName": "Смартфон Apple iPhone 11 128 Gb Slim Box черный",
             "image": "Samsung_S20",
             "price": "7 300 000",
             "installment": "2 345 000",
@@ -35,6 +39,7 @@
         {
             "id": "5",
             "name": "Смартфон Apple iphon...",
+            "fullName": "Смартфон Apple iPhone 11 128 Gb Slim Box черный",
             "image": "Iphone_12",
             "price": "7 300 000",
             "installment": "2 345 000",
@@ -43,6 +48,7 @@
         {
             "id": "6",
             "name": "Смартфон Apple iphon...",
+            "fullName": "Смартфон Apple iPhone 11 128 Gb Slim Box черный",
             "image": "Iphone_12",
             "price": "7 300 000",
             "installment": "2 345 000",
@@ -51,6 +57,7 @@
         {
             "id": "7",
             "name": "Samsung Galaxy Z Fold...",
+            "fullName": "Смартфон Apple iPhone 11 128 Gb Slim Box черный",
             "image": "Samsung_S20",
             "price": "7 300 000",
             "installment": "2 345 000",
@@ -59,6 +66,7 @@
         {
             "id": "8",
             "name": "Смартфон Samsung G...",
+            "fullName": "Смартфон Apple iPhone 11 128 Gb Slim Box черный",
             "image": "Samsung-A21",
             "price": "7 300 000",
             "installment": "2 345 000",
@@ -67,6 +75,7 @@
         {
             "id": "9",
             "name": "Смартфон Apple iphon...",
+            "fullName": "Смартфон Apple iPhone 11 128 Gb Slim Box черный",
             "image": "Iphone_12",
             "price": "7 300 000",
             "installment": "2 345 000",
@@ -75,6 +84,7 @@
         {
             "id": "10",
             "name": "Наушники Apple Airpo...",
+            "fullName": "Смартфон Apple iPhone 11 128 Gb Slim Box черный",
             "image": "airpods",
             "price": "7 300 000",
             "installment": "2 345 000",
