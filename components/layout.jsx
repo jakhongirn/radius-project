@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const NavLink = ({ src, name }) => {
   return (
-    <li className="py-2 flex items-center gap-x-3 hover:bg-white hover:text-rd-blue">
+    <li className="py-2 flex items-center gap-x-3 pl-2 rounded-l-full hover:bg-white hover:text-rd-blue">
       <Image
         className="inline "
         src={`/images/icon-${src}.svg`}

@@ -1,9 +1,11 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import { products } from './dataProducts'
 
-const ProductCard = ({ image, name, price, installment, period }) => {
+const ProductCard = ({ id, image, name, price, installment, period }) => {
   return (
-    <div className="bg-white p-3 rounded-md">
+    <Link href={`/products/${id}`} className="block p-3 bg-white rounded-md m-2">
+    
       <div className="bg-[#F7F7F7]  rounded-md flex justify-center py-4">
         <Image
           src={`/images/${image}.png`}
@@ -19,14 +21,14 @@ const ProductCard = ({ image, name, price, installment, period }) => {
         от {installment} сум
       </span>
       <span className="text-gray-300 ml-2">x{period}</span>
-    </div>
+    </Link>
   )
 }
 
 const productsList = products.map((product) => {
   return (
     <ProductCard
-      key={product.name}
+      key={product.id}
       image={product.image}
       name={product.name}
       price={product.price}
@@ -63,6 +65,7 @@ const Checkout = () => {
         <p className="py-3 mt-16 font-semibold">Все товары (121)</p>
 
         <div className="grid grid-cols-5">{productsList}</div>
+
         <div className="flex justify-between items-center  mt-6 mx-4">
           <a href="#">
             <Image
