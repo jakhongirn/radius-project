@@ -1,0 +1,84 @@
+{
+    "products": [
+        {
+            "id": "1",
+            "name": "Смартфон Samsung G...",
+            "image": "Samsung-A21",
+            "price": "7 300 000",
+            "installment": "2 345 000",
+            "period": "24"
+        },
+        {
+            "id": "2",
+            "name": "Смартфон Apple iphon...",
+            "image": "Iphone_12",
+            "price": "7 300 000",
+            "installment": "2 345 000",
+            "period": "24"
+        },
+        {
+            "id": "3",
+            "name": "Наушники Apple Airpo...",
+            "image": "airpods",
+            "price": "7 300 000",
+            "installment": "2 345 000",
+            "period": "24"
+        },
+        {
+            "id": "4",
+            "name": "Samsung Galaxy Z Fold...",
+            "image": "Samsung_S20",
+            "price": "7 300 000",
+            "installment": "2 345 000",
+            "period": "24"
+        },
+        {
+            "id": "5",
+            "name": "Смартфон Apple iphon...",
+            "image": "Iphone_12",
+            "price": "7 300 000",
+            "installment": "2 345 000",
+            "period": "24"
+        },
+        {
+            "id": "6",
+            "name": "Смартфон Apple iphon...",
+            "image": "Iphone_12",
+            "price": "7 300 000",
+            "installment": "2 345 000",
+            "period": "24"
+        },
+        {
+            "id": "7",
+            "name": "Samsung Galaxy Z Fold...",
+            "image": "Samsung_S20",
+            "price": "7 300 000",
+            "installment": "2 345 000",
+            "period": "24"
+        },
+        {
+            "id": "8",
+            "name": "Смартфон Samsung G...",
+            "image": "Samsung-A21",
+            "price": "7 300 000",
+            "installment": "2 345 000",
+            "period": "24"
+        },
+        {
+            "id": "9",
+            "name": "Смартфон Apple iphon...",
+            "image": "Iphone_12",
+            "price": "7 300 000",
+            "installment": "2 345 000",
+            "period": "24"
+        },
+        {
+            "id": "10",
+            "name": "Наушники Apple Airpo...",
+            "image": "airpods",
+            "price": "7 300 000",
+            "installment": "2 345 000",
+            "period": "24"
+        }
+    ]
+}
