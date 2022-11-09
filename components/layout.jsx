@@ -1,5 +1,4 @@
-import React from 'react'
-import TopNavbar from './topNavbar'
+import TopNavbar from './TopNavbar'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -36,7 +35,7 @@ const Layout = ({ children }) => {
             </ul>
           </div>
         </div>
-        <div className='col-span-10'>
+        <div className="col-span-10">
           <main>{children}</main>
         </div>
       </div>
