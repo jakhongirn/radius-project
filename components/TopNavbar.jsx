@@ -1,12 +1,19 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const TopNavbar = () => {
   return (
     <div className="w-full bg-white">
       <div className="flex justify-between items-center mx-12 my-4">
         <div className="">
-          <h1 className="text-lg uppercase font-semibold">Logo</h1>
+          <Link href="/" target="_blank">
+            <Image src="/images/logo-radius.webp"
+            width={90}
+            height={64}
+            alt="logo radius"
+            />
+          </Link>
         </div>
 
         <div className='flex gap-x-8'>

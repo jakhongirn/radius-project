@@ -1,19 +1,22 @@
 import React from 'react'
 import TopNavbar from './topNavbar'
 import Image from 'next/image'
+import Link from 'next/link'
 
-const NavLink = ({ src, name }) => {
+const NavLink = ({ src, name, link }) => {
   return (
-    <li className="py-2 flex items-center gap-x-3 pl-2 rounded-l-full hover:bg-white hover:text-rd-blue">
-      <Image
-        className="inline "
-        src={`/images/icon-${src}.svg`}
-        width={16}
-        height={16}
-        alt="icon"
-      />{' '}
-      {name}
-    </li>
+    <Link href={link}>
+      <li className="py-2 flex items-center gap-x-3 pl-2 rounded-l-full hover:bg-white hover:text-rd-blue">
+        <Image
+          className="inline "
+          src={`/images/icon-${src}.svg`}
+          width={16}
+          height={16}
+          alt="icon"
+        />{' '}
+        {name}
+      </li>
+    </Link>
   )
 }
 
@@ -25,11 +28,11 @@ const Layout = ({ children }) => {
         <div className="col-span-2  w-full bg-rd-blue rounded-tr-[2.5rem]">
           <div className="mt-14 text-white pl-12">
             <ul className="grid gap-y-4">
-              <NavLink src="home" name="Главная" />
-              <NavLink src="order" name="Заказы" />
-              <NavLink src="products" name="Товары" />
-              <NavLink src="rating" name="Отзывы" />
-              <NavLink src="basket" name="Оформить заказ" />
+              <NavLink link="#" src="home" name="Главная" />
+              <NavLink link="#" src="order" name="Заказы" />
+              <NavLink link="#" src="products" name="Товары" />
+              <NavLink link="#" src="rating" name="Отзывы" />
+              <NavLink link="/" src="basket" name="Оформить заказ" />
             </ul>
           </div>
         </div>
