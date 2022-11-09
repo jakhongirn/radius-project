@@ -42,6 +42,7 @@ const productsList = products.map((product) => {
 })
 
 const Checkout = () => {
+  const productsLength = products.length
   return (
     <div className="w-full pl-4 pr-8 mt-8 mb-8">
       <div className="bg-rd-bg px-5 py-4 rounded-lg">
@@ -75,7 +76,7 @@ const Checkout = () => {
             </button>
           </div>
         </form>
-        <p className="py-3 mt-16 font-semibold">Все товары (121)</p>
+        <p className="py-3 mt-16 font-semibold">Все товары ({productsLength})</p>
 
         <div className="grid grid-cols-5">{productsList}</div>
 

@@ -7,7 +7,7 @@ const TopNavbar = () => {
     <div className="w-full bg-white">
       <div className="flex justify-between items-center mx-12 my-4">
         <div className="">
-          <Link href="/" target="_blank">
+          <Link href="/">
             <Image src="/images/logo-radius.webp"
             width={90}
             height={64}
