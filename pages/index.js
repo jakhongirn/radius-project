@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Layout from "../components/Layout.jsx";
-import Checkout from "./Checkout";
+import Checkout from "./checkout.js";
 
 export default function Home() {
   return (

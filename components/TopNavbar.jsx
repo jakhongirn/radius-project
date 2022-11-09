@@ -7,19 +7,20 @@ const TopNavbar = () => {
       <div className="flex justify-between items-center mx-12 my-4">
         <div className="">
           <Link href="/">
-            <Image src="/images/logo-radius.webp"
-            width={90}
-            height={64}
-            alt="logo radius"
+            <Image
+              src="/images/logo-radius.webp"
+              width={90}
+              height={64}
+              alt="logo radius"
             />
           </Link>
         </div>
 
-        <div className='flex gap-x-8'>
+        <div className="flex gap-x-8">
           <div>
             <Image
               src="/images/notification.svg"
-              className=''
+              className=""
               width={28}
               height={28}
               alt=""
