@@ -1,6 +1,6 @@
 import path from "path";
 import fs from "fs/promises";
-import Layout from "../../components/Layout.jsx";
+import Layout from "../../components/layout.jsx";
 import Image from "next/image";
 import Link from "next/link";
 
