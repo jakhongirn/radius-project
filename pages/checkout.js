@@ -33,8 +33,8 @@ const productsList = products.map((product) => {
       key={product.id}
       id={product.id}
       image={product.image}
-      name={product.name}
-      price={product.price}
+      name={product.shortName}
+      price={product.totalPrice}
       installment={product.installment}
       period={product.period}
     />
